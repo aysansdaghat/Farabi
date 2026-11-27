@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>انتشارات بنیاد سینمایی فارابی</title>
+    <meta name="description" content="روایت سینما، در قاب کتاب">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div id="site-header"></div>
+    <main>
+        <section class="hero">
+            <div class="wrap hero-grid">
+                <div class="hero-text">
+                    <h1>روایت سینما، در قاب <span>کتاب</span></h1>
+                    <p>مجموعه‌ای از آثار ماندگار، پژوهش‌های سینمایی و کتاب‌هایی برای علاقه‌مندان به هنر هفتم.</p>
+                    <div class="actions">
+                        <a class="btn gold" href="#books">مشاهده کتاب‌ها ←</a>
+                        <a class="btn outline" href="about.html">درباره انتشارات</a>
+                    </div>
+                    <ul class="stats">
+                        <li><b>+۵۰۰</b>عنوان کتاب</li>
+                        <li><b>۶</b>حوزه موضوعی</li>
+                        <li><b>۱۴۰۴</b>تازه‌ترین چاپ‌ها</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section class="sec" id="categories">
+            <div class="wrap">
+                <div class="cats" id="cats"></div>
+            </div>
+        </section>
+        <section class="sec" id="books">
+            <div class="wrap">
+                <h2 class="sec-title">کتاب‌های انتشارات</h2>
+                <div class="grid" id="grid"></div>
+                <div class="actions" style="margin-top: 1.5rem">
+                    <a class="btn gold" href="all-books.html">مشاهده همه کتاب‌ها ←</a>
+                </div>
+            </div>
+        </section>
+        <section class="dark sec" id="new">
+            <div class="wrap">
+                <h2 class="sec-title light">تازه‌ها و پیشنهادهای نشر</h2>
+                <div class="slider-wrap">
+                    <button class="arrow" data-slide="1" aria-label="قبلی">→</button>
+                    <div class="slider" id="slider"></div>
+                    <button class="arrow" data-slide="-1" aria-label="بعدی">←</button>
+                </div>
+            </div>
+        </section>
+    </main>
+    <div id="site-footer"></div>
+    <script src="js/books.js"></script>
+    <script src="js/cart.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
